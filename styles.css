@@ -1,0 +1,94 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f0f2f5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-image: url("E:/AI SE/chat/Chatbot/Travel.jpg");
+}
+
+#chat-container {
+    width: 90%;
+    max-width: 600px;
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: #ffffff;
+}
+
+#chat-box {
+    flex: 1;
+    padding: 10px;
+    overflow-y: auto;
+    display: flex;
+    flex-direction: column;
+}
+ 
+#main {
+    display: flex;
+    flex-direction: column;
+}
+
+.user, .bot {
+    margin: 5px 0;
+    padding: 10px;
+    border-radius: 20px;
+    max-width: 75%;
+    line-height: 1.4;
+}
+
+.user {
+    align-self: flex-end;
+    background-color: #0078ff;
+    color: #fff;
+}
+
+.bot {
+    align-self: flex-start;
+    background-color: #e1e4ea;
+    color: #333;
+}
+
+#input-container {
+    border-top: 1px solid #ddd;
+    padding: 10px;
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+}
+
+#input {
+    width: 100%;
+    border: none;
+    padding: 15px;
+    font-size: 16px;
+    border-radius: 20px;
+    outline: none;
+    background-color: #f0f2f5;
+}
+
+#input::placeholder {
+    color: #aaa;
+}
+
+::-webkit-scrollbar {
+    width: 8px;
+}
+
+::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #888;
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}
